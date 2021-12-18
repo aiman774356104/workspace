@@ -2,10 +2,12 @@ import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 
 import { Route, Link } from 'react-router-dom';
-
+import { Ui,Todos } from '@space/ui';
 export function App() {
   return (
     <>
+    <Todos />
+    <Ui />
       <NxWelcome title="myapp" />
       <div />
 
